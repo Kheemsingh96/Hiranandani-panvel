@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --btn-primary: #429b3d;
+}
+.btn-primary {
+  background-color: var(--btn-primary);
+  cursor: pointer;
+}
+.btn-primary:hover {
+  filter: brightness(90%);
+}
+.mobile-number {
+  border-radius: 5px 5px 5px 5px !important;
+  /* overflow-x: hidden !important; */
+  height: 48px !important;
+}
+.react-tel-input .selected-flag {
+  /* border-radius: 4px !important; */
+  outline: none;
+  width: 60px !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: relative;
+  border: none !important;
+  padding: 0px !important;
+  background-color: var(--btn-primary) !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.react-tel-input .flag-dropdown {
+  background-color: var(--btn-primary) !important;
+  height: 48px !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .form-control:hover,
+.react-tel-input .selected-flag:hover {
+  background: none !important;
+  border-radius: 0px !important;
+}
+
+.mobile-number input {
+  border: none !important;
+}
+
+.mobile-number,
+input:focus {
+  background: #f4f4f4;
+}
+
+.phone-wrapper .flag {
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .mobile-number,
+  .react-tel-input .selected-flag,
+  .react-tel-input .flag-dropdown,
+  input {
+    height: 40px !important;
+    border: none !important;
+  }
+  .phone-wrapper .flag {
+    transform: scale(1.1);
+  }
+}
+.phone-dropdown {
+  position: fixed !important;
+  z-index: 99999 !important;
+  max-height: 300px;
+  overflow-y: auto;
+}
+#tidio-chat {
+  bottom: 40px !important;
+  right: 10px !important;
+  left: auto !important;
+}
+
+@media (max-width: 768px) {
+  #tidio-chat {
+    bottom: 40px !important;
+    right: 10px !important;
+    left: auto !important;
+  }
+}
