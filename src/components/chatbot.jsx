@@ -112,7 +112,7 @@ const ChatBot = () => {
   return (
     <>
       <style>{`
-        .p-bot-con { position: fixed; bottom: 30px; right: 30px; z-index: 99999; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; align-items: flex-end; }
+        .p-bot-con { position: fixed; bottom: 85px; right: 30px; z-index: 99999; font-family: 'Inter', sans-serif; display: flex; flex-direction: column; align-items: flex-end; }
         .p-bot-btn-wrapper { display: flex; align-items: center; gap: 12px; cursor: pointer; }
         .p-bot-tooltip { background: #ffffff; color: #4b5563; padding: 10px 18px; border-radius: 25px; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.1); animation: p-pop 0.4s ease-out; border: 1px solid #e5e7eb; }
         .p-bot-btn { width: 70px; height: 70px; background: transparent; border-radius: 50%; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); padding: 0; }
@@ -138,7 +138,7 @@ const ChatBot = () => {
         .p-send { background: #388434; color: #fff; border: none; width: 45px; height: 45px; border-radius: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
         .p-send:hover { background: #2a6327; transform: scale(1.05); }
         @keyframes p-pop { from { opacity: 0; transform: scale(0.9) translateY(20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
-        @media (max-width: 500px) { .p-bot-win { width: calc(100vw - 40px); height: 75vh; right: 20px; } .p-bot-con { bottom: 20px; right: 20px; } }
+        @media (max-width: 500px) { .p-bot-win { width: calc(100vw - 40px); height: 75vh; right: 20px; } .p-bot-con { bottom: 80px; right: 20px; } }
       `}</style>
 
       <div className="p-bot-con">
