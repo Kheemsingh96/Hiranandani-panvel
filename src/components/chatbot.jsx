@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { FaPaperPlane, FaTimes, FaRedo } from "react-icons/fa";
 
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbww196G1I1-Y4orxHC9kRve5BffrdftD9_hBsT0gDSYVFsUIApWRV97bQQVjFN_1ebTFA/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwZHaNg4XvWczLuVFWZ7rOKz9RuEYzjxG6s5IkQ--NNvt9klgpgjm3C81L16teeV52KJQ/exec';
 const BOT_IMG = "/assets/chatbot.png";
 
 const ChatBot = () => {

@@ -19,7 +19,7 @@ export default function RegisterForm({ onClose }) {
     e.preventDefault();
     setLoading(true);
     const url =
-      "https://script.google.com/macros/s/AKfycbyCbyCfI8vY87uO5ozl-2-5fP9isWj7dqOeMO8w2sCzNO31TLqulpqJkmmE7v7aVw8/exec";
+      "https://script.google.com/macros/s/AKfycbwZHaNg4XvWczLuVFWZ7rOKz9RuEYzjxG6s5IkQ--NNvt9klgpgjm3C81L16teeV52KJQ/exec";
     
     const body = new URLSearchParams({
       Name: form.name,
