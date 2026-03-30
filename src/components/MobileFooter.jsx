@@ -19,7 +19,7 @@ function MobileFooter() {
       >
         {/* CALL NOW */}
         <a
-          href="tel:+7718003445"
+          href="tel:7718003445"
           className="flex flex-1 items-center justify-center
                    gap-2 md:gap-3
                     transition-colors"
